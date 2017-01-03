@@ -1,0 +1,243 @@
+body{
+  background-image: url(../img/market.png);
+  background-size: cover;
+  font-family: sans-serif;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+.slogan{
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-size: 50px;
+  font-family: sans-serif;
+  text-align: center;
+  text-shadow: 2px 2px silver;
+}
+
+.left_troll{
+  display: inline-block;
+  width: 23%;
+}
+
+.setting{
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  border:2px solid gray;
+  padding-bottom: 30px;
+  background-color: white;
+  width: 50%;
+  height: auto;
+  text-align: center;
+  opacity: 0.8;
+  font-size: 24px;
+  line-height: 150%;
+  font-family: 微軟正黑體, sans-serif;
+}
+
+.setting>div{
+  display: inline-block;
+  width:21%;
+}
+
+.skill{
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 35%;
+  margin-right: 30px;
+  border-radius: 4px;
+  padding: 10px 0px;
+  width: 130px;
+  background-color: silver;
+  opacity: 1;
+  text-align: center;
+  font-size: 26px;
+  line-height: 120%;
+}
+
+.setting>.hp_1{
+  display: inline-block;
+  width:40%;
+}
+
+.setting>.hp_2{
+  display: inline-block;
+  width:40%;
+}
+
+.hp_2{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hp1{
+  display: inline-block;
+  width: 60%;
+}
+
+.hp2{
+  display: inline-block;
+  width: 60%;
+}
+
+
+.manual{
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 5%;
+  margin-right: 35%;
+  border-radius: 4px;
+  padding: 10px 0px;
+  width: 130px;
+  background-color: silver;
+  opacity: 1;
+  text-align: center;
+  font-size: 26px;
+  line-height: 120%;
+}
+
+.button,.submit{
+  cursor: pointer;
+}
+
+.hp1, .hp2, .submit{
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+.skill:hover,.manual:hover{
+  transition: all ease 0.3s;
+  background-color: black;
+  color: white;
+  border: 1px outset gray;
+}
+
+.right_troll{
+  display: inline-block;
+
+  width: 23%;
+}
+
+.clear{
+  clear: right;
+}
+
+hr{
+  border: 2px solid black;
+}
+
+.record{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  border:2px solid gray;
+  padding-bottom: 30px;
+  background-color: white;
+  overflow: auto;
+  width: 55%;
+  text-align: center;
+  opacity: 0.8;
+  font-size: 18px;
+  line-height: 120%;
+  font-family: 微軟正黑體, sans-serif;
+}
+
+.rec_top{
+  padding: 10px 0px;
+  font-size: 30px;
+  background-color: silver;
+  font-family: 微軟正黑體, sans-serif;
+}
+
+@media screen and (max-width:1500px) {
+  .setting{
+    padding-bottom: 28px;
+    font-size: 22px;
+  }
+
+  .setting>div{
+    width:21%;
+  }
+}
+
+@media screen and (max-width:1400px) {
+  .setting>div{
+    width:30%;
+  }
+  .skill{
+    padding: 8px 0px;
+    width: 100px;
+    font-size: 22px;
+  }
+  .manual{
+    padding: 8px 0px;
+    width: 100px;
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width:1180px) {
+  h2{
+    font-size: 28px;
+  }
+  .setting>div{
+     font-size: 18px;
+  }
+  .skill{
+    padding: 8px 0px;
+    width: 90px;
+    font-size: 20px;
+  }
+  .manual{
+    padding: 8px 0px;
+    width: 90px;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width:830px) {
+  h2{
+    font-size: 26px;
+  }
+  .setting>div{
+    width:45%;
+  }
+  .skill{
+    margin-left: 38%;
+    width: 50px;
+    font-size: 18px;
+  }
+  .manual{
+    margin-left: 4%;
+    width: 50px;
+    font-size: 18px;
+  }
+}
+
+
+@media screen and (max-width:320px) {
+  h2{
+    font-size: 18px;
+  }
+  .slogan{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  .setting{
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+  }
+  .setting>div{
+    width:95%;
+  }
+}
